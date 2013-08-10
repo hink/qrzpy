@@ -160,7 +160,7 @@ def display_callsign_info(data):
     info = d.get('qslmgr')
     print 'LoTW: {0}  eQSL: {1}  Mail: {2}'.format(lotw, eqsl, mail)
     if info and info != 'NONE':
-        print 'QSL Manager/Info: {0}'.format()
+        print 'QSL Manager/Info: {0}'.format(info)
 
 
 def main():

@@ -14,5 +14,8 @@ Simple QRZ Script to lookup callsigns via the CLI.
 ### QRZ Requirements
 Paid membership with access to the [XML Logbook Data API](https://ssl.qrz.com/products/index.html)
 
-## Usage
+## Python 2 Usage
 	python ./qrz.py
+
+## Python 3 Usage
+	python ./qrz3.py
